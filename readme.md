@@ -17,7 +17,22 @@ To use the `RecursiveImages` component in your HTML, you need to include the com
 
 htmlCopy code
 
-`<!DOCTYPE html> <html lang="en"> <head>   <meta charset="UTF-8">   <title>Recursive Images Demo</title>   <script src="recursive-images.js" type="text/javascript"></script> </head> <body>   <recursive-images     inscriptions="['/content/<INSCRIPTION_ID>', '/content/<INSCRIPTION_ID>', ...]"     grid="3x3"     originalWidth="800"     originalHeight="600"   ></recursive-images> </body> </html>`
+`
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head>   
+    <meta charset="UTF-8">   
+    <title>Recursive Images Demo</title>   
+    <script src="recursive-images.js" type="text/javascript"></script> 
+  </head> 
+  <body>   
+    <recursive-images 
+      inscriptions="['/content/<INSCRIPTION_ID>', '/content/<INSCRIPTION_ID>', ...]"
+      grid="3x3"
+      originalWidth="800"
+      originalHeight="600"></recursive-images> 
+  </body> 
+</html>`
 
 ### Attributes
 
