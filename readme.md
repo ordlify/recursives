@@ -15,10 +15,7 @@ Usage
 
 To use the `RecursiveImages` component in your HTML, you need to include the component's JavaScript file and use the custom element tag `<recursive-images></recursive-images>`. Here's an example:
 
-htmlCopy code
-
-`
-<!DOCTYPE html> 
+```
 <html lang="en"> 
   <head>   
     <meta charset="UTF-8">   
@@ -32,7 +29,8 @@ htmlCopy code
       originalWidth="800"
       originalHeight="600"></recursive-images> 
   </body> 
-</html>`
+</html>
+```
 
 ### Attributes
 
