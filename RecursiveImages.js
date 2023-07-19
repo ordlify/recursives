@@ -3,6 +3,12 @@ class RecursiveImages extends HTMLElement {
     super();
 
     this.shadow = this.attachShadow({ mode: 'open' });
+
+    this.shadow.innerHTML = `<style>
+        :host {display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+        canvas { max-width: 100%; max-height: 100%; }
+      </style>`;
+    
     this.canvas = document.createElement('canvas');
     this.shadow.appendChild(this.canvas);
     this.ctx = this.canvas.getContext('2d');
