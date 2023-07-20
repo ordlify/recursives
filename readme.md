@@ -20,7 +20,7 @@ To use the `RecursiveImages` component in your HTML, you need to include the com
   <head>   
     <meta charset="UTF-8">   
     <title>Recursive Images Demo</title>   
-    <script src="recursive-images.js" type="text/javascript"></script> 
+    <script src="/content/0d6b93e99a715e67abdc917428dc135bd824aa1c918766f95fa263a2648fff01i0"></script>
   </head> 
   <body>   
     <recursive-images 
